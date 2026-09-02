@@ -1,0 +1,77 @@
+{
+  "product": "简历投递加速包",
+  "packageCode": "starter",
+  "packageName": "岗位定向基础包",
+  "listedPriceCny": 39,
+  "orderId": "public-sample-001",
+  "customer": "演示候选人",
+  "targetRole": "电商运营",
+  "generatedAt": "2026-09-02T17:55:16.903Z",
+  "revisionPolicy": "包含1次基于原始事实的文字或版式修订；新增经历或更换岗位按新订单计费。",
+  "jobMatch": {
+    "targetKeywords": [
+      "数据分析",
+      "运营",
+      "电商",
+      "活动策划",
+      "转化率",
+      "GMV",
+      "Excel",
+      "沟通"
+    ],
+    "matched": [
+      "数据分析",
+      "活动策划",
+      "Excel",
+      "沟通"
+    ],
+    "unverified": [
+      "运营",
+      "电商",
+      "转化率",
+      "GMV"
+    ]
+  },
+  "acceptance": [
+    "8个交付文件均可打开",
+    "PDF为A4打印格式",
+    "DOCX可在Word中继续编辑",
+    "内容只使用客户输入",
+    "未匹配关键词明确标记为待核实",
+    "客户投递前完成真实性确认"
+  ],
+  "files": [
+    {
+      "name": "01-resume.md",
+      "sha256": "e774ff29406a33723d5b5e9d405eeeba25d986a2c347e3a7bd528d436a7b1f20"
+    },
+    {
+      "name": "02-cover-letter.md",
+      "sha256": "fe3243274a3a3f0050ffcfca4565cfac5705acfb4a7f7de068a28ab7c8b4e3c3"
+    },
+    {
+      "name": "03-interview-card.md",
+      "sha256": "1693f50a35204b5fceb04004eeb18edd5b958a16126f942fe639c9da6c7494be"
+    },
+    {
+      "name": "04-resume-print.html",
+      "sha256": "1c9aa0f4b7b1942727ed66fc7350659ce9801d1763b5455f41adfebe9464d744"
+    },
+    {
+      "name": "05-job-match-report.md",
+      "sha256": "eccd7c4949153f63ae428a11b261b9a129b4c69d8b056a73c7b63f52cf145717"
+    },
+    {
+      "name": "06-final-checklist.md",
+      "sha256": "dc2c8ca28ee02d89bcb3121d395c4343b2cd7c6ede45428425d696c99d0770be"
+    },
+    {
+      "name": "07-resume.pdf",
+      "sha256": "05b71c2cb5d5ad10dfb0990dd1956016818a7aa7593281ab90af95a05e83c5a7"
+    },
+    {
+      "name": "08-resume-editable.docx",
+      "sha256": "2103a25ad73651ef7904c30cf63687b536e63608fe544db27bb95058b4dfd9cc"
+    }
+  ]
+}

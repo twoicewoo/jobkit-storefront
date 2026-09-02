@@ -1,0 +1,37 @@
+name: 预约 JobKit 简历定制
+description: 只登记目标岗位和来源；不要在公开 Issue 中填写姓名、联系方式或简历内容。
+title: "[预约] 目标岗位："
+labels:
+  - order-lead
+body:
+  - type: markdown
+    attributes:
+      value: |
+        此页面公开可见。只登记非敏感意向，卖家确认接单方式后，再通过成交平台私下发送订单 JSON。
+  - type: input
+    id: target_role
+    attributes:
+      label: 目标岗位
+      description: 只写岗位名称，不要写公司内部信息。
+      placeholder: 例如：产品运营
+    validations:
+      required: true
+  - type: dropdown
+    id: source
+    attributes:
+      label: 从哪里了解到 JobKit
+      options:
+        - GitHub Pages
+        - 闲鱼
+        - 小红书
+        - 微信
+        - 其他公开渠道
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我没有在本 Issue 中填写姓名、电话、邮箱、身份证号或简历正文。
+          required: true
