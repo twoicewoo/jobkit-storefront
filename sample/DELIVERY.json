@@ -6,8 +6,21 @@
   "orderId": "public-sample-001",
   "customer": "演示候选人",
   "targetRole": "电商运营",
-  "generatedAt": "2026-09-02T17:55:16.903Z",
+  "generatedAt": "2026-09-02T18:31:03.615Z",
   "revisionPolicy": "包含1次基于原始事实的文字或版式修订；新增经历或更换岗位按新订单计费。",
+  "editorial": {
+    "strategy": "按目标JD文本相关性稳定排序；摘要只重述客户事实",
+    "rankedSkills": [
+      "Excel数据分析",
+      "跨团队沟通",
+      "商品上架与活动策划"
+    ],
+    "rankedExperience": [
+      "连续8周整理经营数据并输出复盘",
+      "协助策划3次促销活动",
+      "维护120个商品的信息准确性"
+    ]
+  },
   "jobMatch": {
     "targetKeywords": [
       "数据分析",
@@ -30,7 +43,8 @@
       "电商",
       "转化率",
       "GMV"
-    ]
+    ],
+    "coverage": 0.5
   },
   "acceptance": [
     "8个交付文件均可打开",
@@ -43,11 +57,11 @@
   "files": [
     {
       "name": "01-resume.md",
-      "sha256": "e774ff29406a33723d5b5e9d405eeeba25d986a2c347e3a7bd528d436a7b1f20"
+      "sha256": "8c54daf96680ff32b8d961b29583ff487c76737a1a15a628928e57daaee7260a"
     },
     {
       "name": "02-cover-letter.md",
-      "sha256": "fe3243274a3a3f0050ffcfca4565cfac5705acfb4a7f7de068a28ab7c8b4e3c3"
+      "sha256": "7aed6477a3e9b6ba7748a94e550a59f37323e5f0f0a6494566c1953b9ba7e71a"
     },
     {
       "name": "03-interview-card.md",
@@ -55,11 +69,11 @@
     },
     {
       "name": "04-resume-print.html",
-      "sha256": "1c9aa0f4b7b1942727ed66fc7350659ce9801d1763b5455f41adfebe9464d744"
+      "sha256": "d1d2e5c895a85d8e125dc7b3920fef245ceface1db3fce20d01295f795624ab1"
     },
     {
       "name": "05-job-match-report.md",
-      "sha256": "eccd7c4949153f63ae428a11b261b9a129b4c69d8b056a73c7b63f52cf145717"
+      "sha256": "d2010dde20075fd76f0da368556a10ab89b4418b74e39c8d0fa2128170f130ca"
     },
     {
       "name": "06-final-checklist.md",
@@ -67,11 +81,11 @@
     },
     {
       "name": "07-resume.pdf",
-      "sha256": "05b71c2cb5d5ad10dfb0990dd1956016818a7aa7593281ab90af95a05e83c5a7"
+      "sha256": "fb6d264908b0936db1b86d1028e9b019e723d2d34f54575fcd9e94f832e9eb57"
     },
     {
       "name": "08-resume-editable.docx",
-      "sha256": "2103a25ad73651ef7904c30cf63687b536e63608fe544db27bb95058b4dfd9cc"
+      "sha256": "2fa4498d4b6f1c8b032b356ac6845509475175a327626f9b448bb219f92408a6"
     }
   ]
 }
