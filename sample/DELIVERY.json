@@ -6,7 +6,7 @@
   "orderId": "public-sample-001",
   "customer": "演示候选人",
   "targetRole": "电商运营",
-  "generatedAt": "2026-09-02T18:31:03.615Z",
+  "generatedAt": "2026-09-02T18:32:30.108Z",
   "revisionPolicy": "包含1次基于原始事实的文字或版式修订；新增经历或更换岗位按新订单计费。",
   "editorial": {
     "strategy": "按目标JD文本相关性稳定排序；摘要只重述客户事实",
@@ -81,11 +81,11 @@
     },
     {
       "name": "07-resume.pdf",
-      "sha256": "fb6d264908b0936db1b86d1028e9b019e723d2d34f54575fcd9e94f832e9eb57"
+      "sha256": "140065ade7b61dbac40347c11421fde891fd2b82805d92fb4b9f983c000a3f9b"
     },
     {
       "name": "08-resume-editable.docx",
-      "sha256": "2fa4498d4b6f1c8b032b356ac6845509475175a327626f9b448bb219f92408a6"
+      "sha256": "002d029d43b24508d71c74fd1e08079915948053fd3cbb96a92287bc06ba6778"
     }
   ]
 }
