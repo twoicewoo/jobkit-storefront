@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://twoicewoo.github.io/jobkit-storefront/sitemap.xml
