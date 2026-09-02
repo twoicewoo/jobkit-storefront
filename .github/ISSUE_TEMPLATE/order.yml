@@ -17,6 +17,16 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: package_interest
+    attributes:
+      label: 意向套餐
+      options:
+        - 基础包 ¥39（8份文件）
+        - 冲刺包 ¥99（11份文件）
+        - 先看样例再决定
+    validations:
+      required: true
+  - type: dropdown
     id: source
     attributes:
       label: 从哪里了解到 JobKit

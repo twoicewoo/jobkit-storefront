@@ -1,0 +1,38 @@
+name: JobKit lead triage
+
+'on':
+  issues:
+    types: [opened]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  acknowledge:
+    if: startsWith(github.event.issue.title, '[预约]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Label and send next steps
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issue_number = context.issue.number;
+            await github.rest.issues.addLabels({owner, repo, issue_number, labels: ['order-lead', 'needs-private-checkout']});
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number,
+              body: [
+                '已登记这条非敏感预约。下一步：',
+                '',
+                '1. 付款前可先检查完整演示交付：https://twoicewoo.github.io/jobkit-storefront/sample-case.html',
+                '2. 基础包 ¥39（8 份文件）；冲刺包 ¥99（11 份文件）。',
+                '3. 卖家确认可接单后，再在成交平台私下发送订单 JSON；不要把简历、姓名、电话或邮箱贴到公开 Issue。',
+                '4. 资料完整并确认付款后开始计算 24 小时初稿时效。',
+                '',
+                '服务条款：https://twoicewoo.github.io/jobkit-storefront/service-terms.html'
+              ].join('\n')
+            });
