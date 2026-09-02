@@ -2,7 +2,7 @@
 
 直接执行入口见 `business/START-HERE.md`。公开销售页：https://twoicewoo.github.io/jobkit-storefront/ 。运行 `npm run business:serve` 可在本机预览。
 
-当前首发产品是**简历投递加速包**：客户提交真实经历和目标岗位，项目自动生成岗位定向简历、可编辑 Word、A4 PDF、求职信、面试准备卡和可打印 HTML。市场研究 CLI 保留为选品与迭代证据层。
+当前产品采用双套餐：**岗位定向基础包 ¥39 / 8 份文件**，以及**面试证据链冲刺包 ¥99 / 11 份文件**。客户提交真实经历和完整目标岗位 JD，项目自动生成岗位定向简历、可编辑 Word、A4 PDF、求职信和匹配报告；冲刺包再生成主张证据表、定向回答草案与 7 天投递计划。市场研究 CLI 保留为选品与迭代证据层。
 
 ```bash
 npm run business:demo
