@@ -1,0 +1,20 @@
+{
+  "title": "简历优化定制｜按目标岗位改写｜24小时｜PDF+求职信+面试卡",
+  "priceCny": 39,
+  "categoryGuidance": "选择平台实际支持的服务或虚拟交付类目",
+  "deliveryHours": 24,
+  "revisionCount": 1,
+  "images": [
+    "assets/cover-1.png",
+    "assets/cover-2.png",
+    "assets/cover-3.png"
+  ],
+  "descriptionFile": "listing.md",
+  "customerForm": "order-form.html",
+  "claimsExcluded": [
+    "保证面试",
+    "保证录用",
+    "虚构经历",
+    "伪造证书"
+  ]
+}
